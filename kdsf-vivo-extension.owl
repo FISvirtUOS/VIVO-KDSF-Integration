@@ -96,7 +96,7 @@
         <vitro:prohibitedFromUpdateBelowRoleLevelAnnot rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/role#public"/>
         <vitro:selectFromExistingAnnot rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</vitro:selectFromExistingAnnot>
 		<vitro:offerCreateNewOptionAnnot rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</vitro:offerCreateNewOptionAnnot>
-        <rdfs:label xml:lang="de-DE">hat gemeinsame Berufung</rdfs:label>
+        <rdfs:label xml:lang="de-DE">gemeinsame Berufung</rdfs:label>
     </owl:ObjectProperty>
     
 	
@@ -112,7 +112,7 @@
         <vitro:hiddenFromPublishBelowRoleLevelAnnot rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/role#public"/>
         <vitro:prohibitedFromUpdateBelowRoleLevelAnnot rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/role#public"/>
         <vitro:selectFromExistingAnnot rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</vitro:selectFromExistingAnnot>
-        <rdfs:label xml:lang="de-DE">hat Geschlecht</rdfs:label>
+        <rdfs:label xml:lang="de-DE">Geschlecht</rdfs:label>
     </owl:ObjectProperty>
  
 
@@ -127,7 +127,7 @@
         <vitro:hiddenFromPublishBelowRoleLevelAnnot rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/role#public"/>
         <vitro:prohibitedFromUpdateBelowRoleLevelAnnot rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/role#public"/>
         <vitro:selectFromExistingAnnot rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</vitro:selectFromExistingAnnot>
-        <rdfs:label xml:lang="de-DE">hat Ressourceart</rdfs:label>
+        <rdfs:label xml:lang="de-DE">Ressourceart</rdfs:label>
     </owl:ObjectProperty>
     
     
@@ -145,7 +145,7 @@
         <vitro:prohibitedFromUpdateBelowRoleLevelAnnot rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/role#public"/>
 		<vitro:offerCreateNewOptionAnnot rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</vitro:offerCreateNewOptionAnnot>
         <vitro:selectFromExistingAnnot rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</vitro:selectFromExistingAnnot>
-        <rdfs:label xml:lang="de-DE">ist übergeordnetes Projekt von</rdfs:label>
+        <rdfs:label xml:lang="de-DE">übergeordnetes Projekt von</rdfs:label>
     </owl:ObjectProperty>
 
    
@@ -161,7 +161,7 @@
         <vitro:prohibitedFromUpdateBelowRoleLevelAnnot rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/role#public"/>
         <vitro:publicDescriptionAnnot>Die Beschreibung der Zugangsrechte erfolgt entlang der OpenAire-Guidelines.</vitro:publicDescriptionAnnot>
         <vitro:selectFromExistingAnnot rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</vitro:selectFromExistingAnnot>
-        <rdfs:label xml:lang="de-DE">hat Zugriffsrechte</rdfs:label>
+        <rdfs:label xml:lang="de-DE">Zugriffsrechte</rdfs:label>
     </owl:ObjectProperty>
     
     
@@ -180,7 +180,7 @@
         <vitro:prohibitedFromUpdateBelowRoleLevelAnnot rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/role#public"/>
         <vitro:publicDescriptionAnnot xml:lang="de">Es wird unterschieden zwischen Inland und Ausland. Personen mit Promotionsberechtigungen aus mehreren Ländern, die sowohl in Deutschland als auch weiteren Ländern erworben wurden, werden nur der Kategorie Inland zugeordnet.</vitro:publicDescriptionAnnot>
         <vitro:selectFromExistingAnnot rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</vitro:selectFromExistingAnnot>
-        <rdfs:label xml:lang="de-DE">hat Promotionsberechtigung aus</rdfs:label>
+        <rdfs:label xml:lang="de-DE">Promotionsberechtigung aus</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -198,7 +198,7 @@
         <vitro:prohibitedFromUpdateBelowRoleLevelAnnot rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/role#public"/>
         <vitro:publicDescriptionAnnot xml:lang="de">Es wird unterschieden zwischen Inland und Ausland. Personen mit mehreren Staatsangehörigkeiten, die sowohl dem deutschen als auch weiteren Staaten angehören, werden nur der Kategorie Inland zugeordnet.</vitro:publicDescriptionAnnot>
         <vitro:selectFromExistingAnnot rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</vitro:selectFromExistingAnnot>
-        <rdfs:label xml:lang="de-DE">hat Staatsangehörigkeit</rdfs:label>
+        <rdfs:label xml:lang="de-DE">Staatsangehörigkeit</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -214,7 +214,7 @@
         <vitro:hiddenFromPublishBelowRoleLevelAnnot rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/role#public"/>
         <vitro:prohibitedFromUpdateBelowRoleLevelAnnot rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/role#public"/>
         <vitro:selectFromExistingAnnot rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</vitro:selectFromExistingAnnot>
-        <rdfs:label xml:lang="de-DE">hat Besoldung</rdfs:label>
+        <rdfs:label xml:lang="de-DE">Besoldung</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -231,7 +231,7 @@
         <vitro:hiddenFromPublishBelowRoleLevelAnnot rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/role#public"/>
         <vitro:prohibitedFromUpdateBelowRoleLevelAnnot rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/role#public"/>
         <vitro:selectFromExistingAnnot rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</vitro:selectFromExistingAnnot>
-        <rdfs:label xml:lang="de-DE">hat Vertrag</rdfs:label>
+        <rdfs:label xml:lang="de-DE">Vertrag</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -245,7 +245,7 @@
         <vitro:hiddenFromPublishBelowRoleLevelAnnot rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/role#public"/>
         <vitro:prohibitedFromUpdateBelowRoleLevelAnnot rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/role#public"/>
         <vitro:selectFromExistingAnnot rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</vitro:selectFromExistingAnnot>
-        <rdfs:label xml:lang="de-DE">ist Vertrag von</rdfs:label>
+        <rdfs:label xml:lang="de-DE">Vertrag von</rdfs:label>
     </owl:ObjectProperty>
     
 	
@@ -332,7 +332,7 @@
         <vitro:hiddenFromDisplayBelowRoleLevelAnnot rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/role#public"/>
         <vitro:hiddenFromPublishBelowRoleLevelAnnot rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/role#public"/>
         <vitro:prohibitedFromUpdateBelowRoleLevelAnnot rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/role#public"/>
-        <rdfs:label xml:lang="de-DE">hat Befristung</rdfs:label>
+        <rdfs:label xml:lang="de-DE">Befristung</rdfs:label>
     </owl:DatatypeProperty>
     
 
