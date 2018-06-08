@@ -211,7 +211,7 @@ https://www.coar-repositories.org/activities/repository-interoperability/coar-vo
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:domain rdf:resource="http://kerndatensatz-forschung.de/owl/Basis#Professoren"/>
         <rdfs:range rdf:resource="http://lod.tib.eu/onto/kdsf/Besoldungsart"/>
-        <vitro:hiddenFromDisplayBelowRoleLevelAnnot rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/role#public"/>
+        <vitro:hiddenFromDisplayBelowRoleLevelAnnot rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/role#curator"/>
         <vitro:hiddenFromPublishBelowRoleLevelAnnot rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/role#public"/>
         <vitro:prohibitedFromUpdateBelowRoleLevelAnnot rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/role#public"/>
         <vitro:selectFromExistingAnnot rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</vitro:selectFromExistingAnnot>
@@ -228,7 +228,7 @@ https://www.coar-repositories.org/activities/repository-interoperability/coar-vo
         <rdfs:domain rdf:resource="http://kerndatensatz-forschung.de/owl/Basis#Beschaeftigter"/>
         <rdfs:range rdf:resource="http://lod.tib.eu/onto/kdsf/Vertrag"/>
         <vitro:displayRankAnnot rdf:datatype="http://www.w3.org/2001/XMLSchema#int">9</vitro:displayRankAnnot>
-        <vitro:hiddenFromDisplayBelowRoleLevelAnnot rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/role#public"/>
+        <vitro:hiddenFromDisplayBelowRoleLevelAnnot rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/role#curator"/>
         <vitro:hiddenFromPublishBelowRoleLevelAnnot rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/role#public"/>
         <vitro:prohibitedFromUpdateBelowRoleLevelAnnot rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/role#public"/>
         <vitro:selectFromExistingAnnot rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</vitro:selectFromExistingAnnot>
@@ -242,7 +242,7 @@ https://www.coar-repositories.org/activities/repository-interoperability/coar-vo
     <owl:ObjectProperty rdf:about="http://lod.tib.eu/onto/kdsf/vertragVon">
 		<rdfs:domain rdf:resource="http://lod.tib.eu/onto/kdsf/Vertrag"/>
 		<rdfs:range rdf:resource="http://kerndatensatz-forschung.de/owl/Basis#Beschaeftigter"/>
-        <vitro:hiddenFromDisplayBelowRoleLevelAnnot rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/role#public"/>
+        <vitro:hiddenFromDisplayBelowRoleLevelAnnot rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/role#curator"/>
         <vitro:hiddenFromPublishBelowRoleLevelAnnot rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/role#public"/>
         <vitro:prohibitedFromUpdateBelowRoleLevelAnnot rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/role#public"/>
         <vitro:selectFromExistingAnnot rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</vitro:selectFromExistingAnnot>
