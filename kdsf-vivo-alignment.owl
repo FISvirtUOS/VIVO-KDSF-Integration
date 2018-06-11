@@ -54,7 +54,11 @@
     <!-- http://kerndatensatz-forschung.de/owl/Basis#hatErstbetreuer -->
 
     <owl:ObjectProperty rdf:about="http://kerndatensatz-forschung.de/owl/Basis#hatErstbetreuer">
+<<<<<<< HEAD
 		<rdfs:label xml:lang="de-DE">Erstbetreuerin/ Erstbetreuer</rdfs:label>
+=======
+		<rdfs:label xml:lang="de-DE">Erstbetreuerin / Erstbetreuer</rdfs:label>
+>>>>>>> Added english labels #2
         <rdfs:label xml:lang="en-US">First carer</rdfs:label>
 		<rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
         <rdfs:domain rdf:resource="http://kerndatensatz-forschung.de/owl/Basis#Promotion"/>
@@ -73,7 +77,11 @@
     
     <owl:ObjectProperty rdf:about="http://kerndatensatz-forschung.de/owl/Basis#hatFach">
 		<rdfs:label xml:lang="de-DE">Fach</rdfs:label>
+<<<<<<< HEAD
         <rdfs:label xml:lang="en-US">Field</rdfs:label>
+=======
+        <rdfs:label xml:lang="en-US">Profession</rdfs:label>
+>>>>>>> Added english labels #2
 		<rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
         <rdfs:domain>
 			<owl:Class>
@@ -191,8 +199,13 @@
 	<!-- http://kerndatensatz-forschung.de/owl/Basis#hatMittelgeber -->
 
     <owl:ObjectProperty rdf:about="http://kerndatensatz-forschung.de/owl/Basis#hatMittelgeber">
+<<<<<<< HEAD
 		<rdfs:label xml:lang="de-DE">Vom Mittelgeber finanzierte Projekte</rdfs:label>
         <rdfs:label xml:lang="en-US">Projects financed by the donor</rdfs:label>
+=======
+		<rdfs:label xml:lang="de-DE">Mittelgeber</rdfs:label>
+        <rdfs:label xml:lang="en-US">External source</rdfs:label>
+>>>>>>> Added english labels #2
 		<rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
         <rdfs:domain rdf:resource="http://kerndatensatz-forschung.de/owl/Basis#Drittmittelprojekt"/>
         <rdfs:range rdf:resource="http://kerndatensatz-forschung.de/owl/Basis#Mittelgeber"/>
@@ -325,7 +338,11 @@
 	<!-- Alternativ kann als Faux Property von obo:BFO_0000051 mit dem Domain und Range kdsf:Drittmittelprojekt abgebildet werden -->
 	
     <owl:ObjectProperty rdf:about="http://kerndatensatz-forschung.de/owl/Basis#hatUebergeordnetesProjekt">
+<<<<<<< HEAD
 		<rdfs:label xml:lang="de-DE">Übergeordnetes Projekt</rdfs:label>
+=======
+		<rdfs:label xml:lang="de-DE">übergeordnetes Projekt</rdfs:label>
+>>>>>>> Added english labels #2
         <rdfs:label xml:lang="en-US">Higher-level project</rdfs:label>
 		<rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
         <rdfs:domain rdf:resource="http://kerndatensatz-forschung.de/owl/Basis#Drittmittelprojekt"/>
@@ -508,7 +525,11 @@
 	
 	<owl:ObjectProperty rdf:about="http://kerndatensatz-forschung.de/owl/Basis#hatSprecher">
 		<rdfs:label xml:lang="de-DE">Sprecher</rdfs:label>
+<<<<<<< HEAD
         <rdfs:label xml:lang="en-US">Spokesperson</rdfs:label>
+=======
+        <rdfs:label xml:lang="en-US">Spokesman</rdfs:label>
+>>>>>>> Added english labels #2
 		<rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
         <rdfs:domain rdf:resource="http://kerndatensatz-forschung.de/owl/Basis#StrukturiertesPromotionsprogramm"/>
         <rdfs:range rdf:resource="http://kerndatensatz-forschung.de/owl/Basis#Person"/>
@@ -635,8 +656,13 @@ Hinweis: Es wird empfohlen, diese Angabe aus entsprechenden Zeitpunktdaten zu be
 
     <!-- http://kerndatensatz-forschung.de/owl/Basis#Bewilligungssumme -->
 
+<<<<<<< HEAD
     <owl:DatatypeProperty rdf:about="http://kerndatensatz-forschung.de/owl/Basis#Bewilligungssumme">
 		<rdfs:label xml:lang="de-DE">Bewilligungssumme</rdfs:label>
+=======
+    <owl:DatatypeProperty rdf:about="http://kerndatensatz-forschung.de/owl/Basis#Bewilligungssume">
+		<rdfs:label xml:lang="de-DE">Bewilligungssume</rdfs:label>
+>>>>>>> Added english labels #2
         <rdfs:label xml:lang="en-US">Grants awarded</rdfs:label>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:domain rdf:resource="http://kerndatensatz-forschung.de/owl/Basis#Drittmittelprojekt"/>
@@ -655,7 +681,11 @@ Hinweis: Es wird empfohlen, diese Angabe aus entsprechenden Zeitpunktdaten zu be
     <owl:DatatypeProperty rdf:about="http://kerndatensatz-forschung.de/owl/Basis#BezeichnungDerProfessur">
 		<rdfs:label xml:lang="de-DE">Bezeichnung der Professur</rdfs:label>
         <rdfs:label xml:lang="en-US">Labeling of the professorship</rdfs:label>
+<<<<<<< HEAD
         <rdfs:domain rdf:resource="http://kerndatensatz-forschung.de/owl/Basis#Professoren"/>
+=======
+        <rdfs:domain rdf:resource="http://kerndatensatz-forschung.de/owl/Basis#Professor"/>
+>>>>>>> Added english labels #2
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <Meta:inhaltlicheDefinition>Be41</Meta:inhaltlicheDefinition>
         <vitro:hiddenFromDisplayBelowRoleLevelAnnot rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/role#public"/>
@@ -913,8 +943,13 @@ Hinweis: Es wird empfohlen, diese Angabe aus entsprechenden Zeitpunktdaten zu be
 	<!-- http://kerndatensatz-forschung.de/owl/Basis#ArbeitspapierForschungsbericht -->
 
     <owl:Class rdf:about="http://kerndatensatz-forschung.de/owl/Basis#ArbeitspapierForschungsbericht">
+<<<<<<< HEAD
 		<rdfs:label xml:lang="de-DE">Arbeitspapier/ Forschungsbericht</rdfs:label>
         <rdfs:label xml:lang="en-US">Working paper/ research report</rdfs:label>
+=======
+		<rdfs:label xml:lang="de-DE">Arbeitspapier/Forschungsbericht</rdfs:label>
+        <rdfs:label xml:lang="en-US">Working paper / research report</rdfs:label>
+>>>>>>> Added english labels #2
         <owl:equivalentClass rdf:resource="http://purl.org/ontology/bibo/Report"/>
         <rdfs:subClassOf rdf:resource="http://kerndatensatz-forschung.de/owl/Basis#Publikation"/>
         <Meta:inhaltlicheDefinition>Pu37</Meta:inhaltlicheDefinition>
@@ -956,7 +991,11 @@ Hinweis: Es wird empfohlen, diese Angabe aus entsprechenden Zeitpunktdaten zu be
 	<!-- http://kerndatensatz-forschung.de/owl/Basis#AusserplanmaessigeProfessoren -->
 
     <owl:Class rdf:about="http://kerndatensatz-forschung.de/owl/Basis#AusserplanmaessigeProfessoren">
+<<<<<<< HEAD
 		<rdfs:label xml:lang="de-DE">Außerplanmäßiger Professor</rdfs:label>
+=======
+		<rdfs:label xml:lang="de-DE">Ausserplanmässiger Professor</rdfs:label>
+>>>>>>> Added english labels #2
         <rdfs:label xml:lang="en-US">Adjunct professor</rdfs:label>
         <!-- rdfs:subClassOf rdf:resource="http://kerndatensatz-forschung.de/owl/Basis#SonstigeProfessoren"/ -->
 		<rdfs:subClassOf rdf:resource="http://kerndatensatz-forschung.de/owl/Basis#Professoren"/>
@@ -1039,8 +1078,13 @@ Hinweis: Es wird empfohlen, diese Angabe aus entsprechenden Zeitpunktdaten zu be
 	<!-- http://kerndatensatz-forschung.de/owl/Basis#Vertretungsprofessoren -->
 
     <owl:Class rdf:about="http://kerndatensatz-forschung.de/owl/Basis#Vertretungsprofessoren">
+<<<<<<< HEAD
 		<rdfs:label xml:lang="de-DE">Vertretungsprofessor/ Lehrstuhlvertreter</rdfs:label>
         <rdfs:label xml:lang="en-US">Visiting professor/ department representatives</rdfs:label>
+=======
+		<rdfs:label xml:lang="de-DE">Vertretungsprofessor/Lehrstuhlvertreter</rdfs:label>
+        <rdfs:label xml:lang="en-US">Visiting professor / department representatives</rdfs:label>
+>>>>>>> Added english labels #2
         <!-- rdfs:subClassOf rdf:resource="http://kerndatensatz-forschung.de/owl/Basis#SonstigeProfessoren"/ -->
 		<rdfs:subClassOf rdf:resource="http://kerndatensatz-forschung.de/owl/Basis#Professoren"/>
 		<Meta:inhaltlicheDefinition>Be58</Meta:inhaltlicheDefinition>
@@ -1071,7 +1115,11 @@ Hinweis: Es wird empfohlen, diese Angabe aus entsprechenden Zeitpunktdaten zu be
     <!-- http://kerndatensatz-forschung.de/owl/Basis#Beschaeftigter -->
 
     <owl:Class rdf:about="http://kerndatensatz-forschung.de/owl/Basis#Beschaeftigter">
+<<<<<<< HEAD
 		<rdfs:label xml:lang="de-DE">Beschäftigte/ Beschäftigter</rdfs:label>
+=======
+		<rdfs:label xml:lang="de-DE">Beschäftigte / Beschäftigter</rdfs:label>
+>>>>>>> Added english labels #2
         <rdfs:label xml:lang="en-US">Employees</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://kerndatensatz-forschung.de/owl/Basis#Person"/>
         <vitro:hiddenFromDisplayBelowRoleLevelAnnot rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/role#public"/>
@@ -1088,7 +1136,11 @@ Hinweis: Es wird empfohlen, diese Angabe aus entsprechenden Zeitpunktdaten zu be
 
     <owl:Class rdf:about="http://kerndatensatz-forschung.de/owl/Basis#BibliographieDokumenttyp">
 		<rdfs:label xml:lang="de-DE">Bibliographie [Journalartikel]</rdfs:label>
+<<<<<<< HEAD
         <rdfs:label xml:lang="en-US">Bibliography [journalarticle]</rdfs:label>
+=======
+        <rdfs:label xml:lang="en-US">Bibliography [journalarticel]</rdfs:label>
+>>>>>>> Added english labels #2
         <rdfs:subClassOf rdf:resource="http://kerndatensatz-forschung.de/owl/Basis#Journalartikel"/>
         <Meta:inhaltlicheDefinition>Pu129</Meta:inhaltlicheDefinition>
         <vitro:hiddenFromDisplayBelowRoleLevelAnnot rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/role#public"/>
@@ -1165,7 +1217,11 @@ Hinweis: Es wird empfohlen, diese Angabe aus entsprechenden Zeitpunktdaten zu be
 
     <owl:Class rdf:about="http://kerndatensatz-forschung.de/owl/Basis#Drittmittelprojekt">
 		<rdfs:label xml:lang="de-DE">Drittmittelprojekt</rdfs:label>
+<<<<<<< HEAD
         <rdfs:label xml:lang="en-US">Externally funded project</rdfs:label>
+=======
+        <rdfs:label xml:lang="en-US">Externally fundet project</rdfs:label>
+>>>>>>> Added english labels #2
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ERO_0000014"/>
         <Meta:inhaltlicheDefinition>Dr2a</Meta:inhaltlicheDefinition>
         <Meta:inhaltlicheDefinition>Dr30</Meta:inhaltlicheDefinition>
@@ -1198,7 +1254,11 @@ Hinweis: Es wird empfohlen, diese Angabe aus entsprechenden Zeitpunktdaten zu be
 
     <owl:Class rdf:about="http://kerndatensatz-forschung.de/owl/Basis#FH">
 		<rdfs:label xml:lang="de-DE">Fachhochschule</rdfs:label>
+<<<<<<< HEAD
         <rdfs:label xml:lang="en-US">University of applied science</rdfs:label>
+=======
+        <rdfs:label xml:lang="en-US">College</rdfs:label>
+>>>>>>> Added english labels #2
         <rdfs:subClassOf rdf:resource="http://kerndatensatz-forschung.de/owl/Basis#Promotionskooperationspartner"/>
         <Meta:inhaltlicheDefinition>Na93</Meta:inhaltlicheDefinition>
         <vitro:inClassGroup rdf:resource="http://vivoweb.org/ontology#vitroClassGrouporganizations"/>
@@ -1898,7 +1958,11 @@ Hinweis: Es wird empfohlen, diese Angabe aus entsprechenden Zeitpunktdaten zu be
 
     <owl:Class rdf:about="http://kerndatensatz-forschung.de/owl/Basis#WissenschaftlicheOderKuenstlerischeHilfskraefte">
 		<rdfs:label xml:lang="de-DE">Wissenschaftliche oder künstlerische Hilfskräfte</rdfs:label>
+<<<<<<< HEAD
         <rdfs:label xml:lang="en-US">Scientific or artistic helpers</rdfs:label>
+=======
+        <rdfs:label xml:lang="en-US">Scientific or artistic staff</rdfs:label>
+>>>>>>> Added english labels #2
         <rdfs:subClassOf rdf:resource="http://kerndatensatz-forschung.de/owl/Basis#WissenschaftlichesUndKuenstlerischesPersonal"/>
         <Meta:inhaltlicheDefinition>Be18</Meta:inhaltlicheDefinition>
 		<vitro:inClassGroup rdf:resource="http://vivoweb.org/ontology#vitroClassGrouppeople"/>
@@ -1962,7 +2026,11 @@ Hinweis: Es wird empfohlen, diese Angabe aus entsprechenden Zeitpunktdaten zu be
 
     <owl:Class rdf:about="http://kerndatensatz-forschung.de/owl/Basis#WissenschaftlichesUndKuenstlerischesPersonal">
 		<rdfs:label xml:lang="de-DE">Wissenschaftliches und künstlerisches Personal</rdfs:label>
+<<<<<<< HEAD
         <rdfs:label xml:lang="en-US">scientific and artistic staff</rdfs:label>
+=======
+        <rdfs:label xml:lang="en-US">Science supporting staff</rdfs:label>
+>>>>>>> Added english labels #2
 		<rdfs:subClassOf rdf:resource="http://kerndatensatz-forschung.de/owl/Basis#Beschaeftigter"/>
         <Meta:inhaltlicheDefinition>Be68</Meta:inhaltlicheDefinition>
 		<vitro:hiddenFromDisplayBelowRoleLevelAnnot rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/role#public"/>
