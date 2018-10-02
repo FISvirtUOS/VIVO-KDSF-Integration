@@ -594,10 +594,10 @@ Hinweis: Es wird empfohlen, diese Angabe aus entsprechenden Zeitpunktdaten zu be
         <vitro:prohibitedFromUpdateBelowRoleLevelAnnot rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/role#public"/>
     </owl:DatatypeProperty>
 
-    <!-- http://kerndatensatz-forschung.de/owl/Basis#Bewilligungssume -->
+    <!-- http://kerndatensatz-forschung.de/owl/Basis#Bewilligungssumme -->
 
-    <owl:DatatypeProperty rdf:about="http://kerndatensatz-forschung.de/owl/Basis#Bewilligungssume">
-		<rdfs:label xml:lang="de-DE">Bewilligungssume</rdfs:label>
+    <owl:DatatypeProperty rdf:about="http://kerndatensatz-forschung.de/owl/Basis#Bewilligungssumme">
+		<rdfs:label xml:lang="de-DE">Bewilligungssumme</rdfs:label>
         <rdfs:label xml:lang="en-US">Grants awarded</rdfs:label>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:domain rdf:resource="http://kerndatensatz-forschung.de/owl/Basis#Drittmittelprojekt"/>
