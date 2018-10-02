@@ -128,7 +128,7 @@
 	<!-- http://kerndatensatz-forschung.de/owl/Basis#hatForschungsfeld  kann im VIVO für kdsf:Publikation und ihre Unterklassen als vivo:subjectArea und für kdsf:Beschäftigter als vivo:researchArea und vivo:Organisationseinheit als affiliated research area abgebildet werden  -->
 	<!-- Um ein Drittmittelprojekt einem Forschungsfeld zuweisen zu können, kann eine Faux Property von vivo:SubjectArea mit dem Domain kdsf:Drittmittelprojekt und rang skos:Concept erstellt werden. -->
     <!-- owl:ObjectProperty rdf:about="http://kerndatensatz-forschung.de/owl/Basis#hatForschungsfeld">
-		<rdfs:label xml:lang="de-DE">hat Forschungsfeld</rdfs:label>
+		<rdfs:label xml:lang="de-DE">Forschungsfeld</rdfs:label>
         <rdfs:domain rdf:resource="http://kerndatensatz-forschung.de/owl/Basis#Drittmittelprojekt"/>
         <rdfs:range rdf:resource="http://kerndatensatz-forschung.de/owl/Basis#Forschungsfeld"/>
         <Meta:inhaltlicheDefinition>Be77</Meta:inhaltlicheDefinition>
