@@ -657,12 +657,17 @@ Hinweis: Es wird empfohlen, diese Angabe aus entsprechenden Zeitpunktdaten zu be
     <!-- http://kerndatensatz-forschung.de/owl/Basis#Bewilligungssumme -->
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     <owl:DatatypeProperty rdf:about="http://kerndatensatz-forschung.de/owl/Basis#Bewilligungssumme">
 		<rdfs:label xml:lang="de-DE">Bewilligungssumme</rdfs:label>
 =======
     <owl:DatatypeProperty rdf:about="http://kerndatensatz-forschung.de/owl/Basis#Bewilligungssume">
 		<rdfs:label xml:lang="de-DE">Bewilligungssume</rdfs:label>
 >>>>>>> Added english labels #2
+=======
+    <owl:DatatypeProperty rdf:about="http://kerndatensatz-forschung.de/owl/Basis#Bewilligungssumme">
+		<rdfs:label xml:lang="de-DE">Bewilligungssumme</rdfs:label>
+>>>>>>> Fixed Label
         <rdfs:label xml:lang="en-US">Grants awarded</rdfs:label>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:domain rdf:resource="http://kerndatensatz-forschung.de/owl/Basis#Drittmittelprojekt"/>
