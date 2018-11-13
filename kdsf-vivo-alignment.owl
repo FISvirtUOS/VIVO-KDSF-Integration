@@ -1114,7 +1114,7 @@ Hinweis: Es wird empfohlen, diese Angabe aus entsprechenden Zeitpunktdaten zu be
 
     <owl:Class rdf:about="http://kerndatensatz-forschung.de/owl/Basis#Drittmittelprojekt">
 		<rdfs:label xml:lang="de-DE">Drittmittelprojekt</rdfs:label>
-        <rdfs:label xml:lang="en-US">Externally fundet project</rdfs:label>
+        <rdfs:label xml:lang="en-US">Externally funded project</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ERO_0000014"/>
         <Meta:inhaltlicheDefinition>Dr2a</Meta:inhaltlicheDefinition>
         <Meta:inhaltlicheDefinition>Dr30</Meta:inhaltlicheDefinition>
