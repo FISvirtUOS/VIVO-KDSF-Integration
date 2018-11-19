@@ -736,7 +736,7 @@ https://www.coar-repositories.org/activities/repository-interoperability/coar-vo
 
     <!-- http://lod.tib.eu/onto/kdsf/NichtErklärtOeffentlicheMittelgeber -->
 
-    <owl:NamedIndividual rdf:about="http://lod.tib.eu/onto/kdsf/NichtErklärtOeffentlicheMittelgeber">
+    <owl:NamedIndividual rdf:about="http://lod.tib.eu/onto/kdsf/NichtErklaertOeffentlicheMittelgeber">
         <rdf:type rdf:resource="http://kerndatensatz-forschung.de/owl/Basis#Mittelgeber"/>
         <rdfs:label xml:lang="de-DE">Nicht erklärte öffentliche Mittelgeber</rdfs:label>
         <rdfs:label xml:lang="en-US">not declared public funding</rdfs:label>
@@ -746,7 +746,7 @@ https://www.coar-repositories.org/activities/repository-interoperability/coar-vo
 
     <!-- http://lod.tib.eu/onto/kdsf/NichtErklärtPrivateMittelgeber -->
 
-    <owl:NamedIndividual rdf:about="http://lod.tib.eu/onto/kdsf/NichtErklärtPrivateMittelgeber">
+    <owl:NamedIndividual rdf:about="http://lod.tib.eu/onto/kdsf/NichtErklaertPrivateMittelgeber">
         <rdf:type rdf:resource="http://kerndatensatz-forschung.de/owl/Basis#Mittelgeber"/>
         <rdfs:label xml:lang="de-DE">Nicht erklärte private Mittelgeber</rdfs:label>
         <rdfs:label xml:lang="en-US">not declared private funding</rdfs:label>
