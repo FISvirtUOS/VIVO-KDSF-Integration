@@ -991,7 +991,7 @@ Hinweis: Es wird empfohlen, diese Angabe aus entsprechenden Zeitpunktdaten zu be
 	<!-- http://kerndatensatz-forschung.de/owl/Basis#Vertretungsprofessoren -->
 
     <owl:Class rdf:about="http://kerndatensatz-forschung.de/owl/Basis#Vertretungsprofessoren">
-		<rdfs:label xml:lang="de-DE">Vertretungsprofessor/Lehrstuhlvertreter</rdfs:label>
+		<rdfs:label xml:lang="de-DE">Vertretungsprofessor/ Lehrstuhlvertreter</rdfs:label>
         <rdfs:label xml:lang="en-US">Visiting professor/department representatives</rdfs:label>
         <!-- rdfs:subClassOf rdf:resource="http://kerndatensatz-forschung.de/owl/Basis#SonstigeProfessoren"/ -->
 		<rdfs:subClassOf rdf:resource="http://kerndatensatz-forschung.de/owl/Basis#Professoren"/>
