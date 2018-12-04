@@ -221,10 +221,7 @@
 					<owl:Class rdf:about="http://kerndatensatz-forschung.de/owl/Basis#Publikation"/>
 					<owl:Class rdf:about="http://kerndatensatz-forschung.de/owl/Basis#StrukturiertesPromotionsprogramm"/>
                     <owl:Class rdf:about="http://vivoweb.org/ontology/core#AcademicDepartment"/>
-<<<<<<< HEAD
                     <owl:Class rdf:about="http://vivoweb.org/ontology/core#Presentation"/>
-=======
->>>>>>> changed Bewilligungssumme type and range of Organisationseinheit
 				</owl:unionOf>
 			</owl:Class>
 		</rdfs:domain>
