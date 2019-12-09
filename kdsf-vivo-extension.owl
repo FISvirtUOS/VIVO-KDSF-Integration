@@ -663,6 +663,7 @@ https://www.coar-repositories.org/activities/repository-interoperability/coar-vo
         <rdf:type rdf:resource="http://kerndatensatz-forschung.de/owl/Basis#Mittelgeber"/>
         <rdfs:label xml:lang="de-DE">Deutsche Forschungsgemeinschaft</rdfs:label>
         <rdfs:label xml:lang="en-US">German Research Foundation</rdfs:label>
+        <kdsf:abkuerzung xml:lang="de-DE">DFG</kdsf:abkuerzung>
     </owl:NamedIndividual>
     
 
@@ -673,6 +674,7 @@ https://www.coar-repositories.org/activities/repository-interoperability/coar-vo
         <rdf:type rdf:resource="http://kerndatensatz-forschung.de/owl/Basis#Mittelgeber"/>
         <rdfs:label xml:lang="de-DE">Europäische Union</rdfs:label>
         <rdfs:label xml:lang="en-US">European Union</rdfs:label>
+        <kdsf:abkuerzung xml:lang="de-DE">EU</kdsf:abkuerzung>
     </owl:NamedIndividual>
     
 
